@@ -6,6 +6,10 @@
     font-weight: bold;
 }
 
-.footer{
+#total{
+    /* column-span: 2; */
+}
+
+.table-light{
     background-color: lightgray;
 }
