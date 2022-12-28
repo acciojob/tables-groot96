@@ -1,2 +1,7 @@
 
 /* Your CSS Code here. */
+#table{
+    font-family: monospace;
+    text-align: end;
+    font-weight: bold;
+}
