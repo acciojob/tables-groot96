@@ -9,42 +9,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table class="table">
-		<thead class="table-dark">
-			<td>#</td>
-			<td>From</td>
-			<td>To</td>
-			<td>Amount($)</td>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td>Mark</td>
-				<td>Otto</td>
-				<td>1000</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Jacob</td>
-				<td>Thornton</td>
-				<td>1500</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>Jack</td>
-				<td>John</td>
-				<td>2000</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td id="total">Total=4000</td>
-				
-			</tr>
-
-		</tbody>
-	</table>
+	<caption>List of Transactions</caption>
+	<div class="table-responsive">
+		<table class="table table-hover">
+			<thead class="table-dark">
+				<td>#</td>
+				<td>From</td>
+				<td>To</td>
+				<td>Amount($)</td>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jacob</td>
+					<td>Thornton</td>
+					<td>1500</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Jack</td>
+					<td>John</td>
+					<td>2000</td>
+				</tr>
+			</tbody>
+			<tfoot class="footer">
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td id="total">Total=4000</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
 	<script type="text/javascript" src="./script.js">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
